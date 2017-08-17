@@ -31,7 +31,7 @@ Partial Class MainForm
         Me.btnTest.Name = "btnTest"
         Me.btnTest.Size = New System.Drawing.Size(100, 26)
         Me.btnTest.TabIndex = 0
-        Me.btnTest.Text = "Do Test"
+        Me.btnTest.Text = "Test"
         Me.btnTest.UseVisualStyleBackColor = True
         '
         'MainForm
