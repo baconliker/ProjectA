@@ -22,20 +22,32 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.btnTest = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Form1
+        'btnTest
+        '
+        Me.btnTest.Location = New System.Drawing.Point(89, 112)
+        Me.btnTest.Name = "btnTest"
+        Me.btnTest.Size = New System.Drawing.Size(100, 26)
+        Me.btnTest.TabIndex = 0
+        Me.btnTest.Text = "Test"
+        Me.btnTest.UseVisualStyleBackColor = True
+        '
+        'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.btnTest)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
-        Me.Name = "Form1"
+        Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Project A"
         Me.ResumeLayout(False)
 
     End Sub
 
+    Friend WithEvents btnTest As Button
 End Class
